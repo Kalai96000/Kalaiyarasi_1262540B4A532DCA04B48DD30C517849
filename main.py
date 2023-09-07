@@ -1,5 +1,6 @@
-year = 2023
-if year % 4 == 0:
-  print("leap year")
-else:
-  print("Not a leap year")
+def fact(n):
+  if n==0 or n==1:
+    return 1
+  else:
+    return n*fact(n-1)
+print(fact(5))
